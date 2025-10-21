@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Bhuvanesh-connect/customerlabs_assessment_task/static/css/main.1c2f2e98.css",
-    "main.js": "/Bhuvanesh-connect/customerlabs_assessment_task/static/js/main.e0de8316.js",
-    "static/media/bootstrap-icons.woff?": "/Bhuvanesh-connect/customerlabs_assessment_task/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
-    "static/media/bootstrap-icons.woff2?": "/Bhuvanesh-connect/customerlabs_assessment_task/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
-    "index.html": "/Bhuvanesh-connect/customerlabs_assessment_task/index.html",
-    "main.1c2f2e98.css.map": "/Bhuvanesh-connect/customerlabs_assessment_task/static/css/main.1c2f2e98.css.map",
-    "main.e0de8316.js.map": "/Bhuvanesh-connect/customerlabs_assessment_task/static/js/main.e0de8316.js.map"
+    "main.css": "/customerlabs_assessment_task/static/css/main.8d07416c.css",
+    "main.js": "/customerlabs_assessment_task/static/js/main.e0de8316.js",
+    "static/media/bootstrap-icons.woff?": "/customerlabs_assessment_task/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/customerlabs_assessment_task/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/customerlabs_assessment_task/index.html",
+    "main.8d07416c.css.map": "/customerlabs_assessment_task/static/css/main.8d07416c.css.map",
+    "main.e0de8316.js.map": "/customerlabs_assessment_task/static/js/main.e0de8316.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c2f2e98.css",
+    "static/css/main.8d07416c.css",
     "static/js/main.e0de8316.js"
   ]
 }
