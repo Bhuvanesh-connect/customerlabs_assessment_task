@@ -1,0 +1,214 @@
+/** View Audience Section **/
+.ViewAudience{
+    & .NavigationBar{
+        background-color: #39aebc;
+        color: #ffffff;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        & .icon_leftArrow{
+            font-size: 16px;
+            font-weight: 800;
+            margin-right: 5px;
+        }
+    }
+
+    & .content{
+        padding: 20px;
+
+        & .btn_SaveSegment{
+            background-color: #41b494;
+            color: #ffffff;
+            border-radius: 4px;
+            border: 1px solid #41b494;
+
+            &:hover{
+                background-color: #37c59d;
+            }
+        }
+    }
+}
+
+/** Save Segment (OffCanvas) **/
+.SaveSegment:global(.offcanvas){
+    display: flex;
+    flex-direction: column;
+
+    & .NavigationBar{
+        background-color: #39aebc;
+        color: #ffffff;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        & .icon_leftArrow{
+            font-size: 16px;
+            font-weight: 600;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+    
+    & :global(.offcanvas-body){
+        position: relative;
+
+        & .segmentNameInput{
+            border-radius: 2px !important;
+
+            &:focus{
+                border-color: #a5a5a5 !important;
+                box-shadow: none !important;
+            }
+        }
+
+        & .legends{
+            display: flex;
+            justify-content: end;
+            margin: 12px 0;
+            column-gap: 12px;
+            font-size: 12px;
+
+            & .dot{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                display: inline-block;
+
+                &.green_dot{
+                    background-color: #5ddb78;
+                }
+                &.red_dot{
+                    background-color: #e62c67;
+                }
+            }
+        }
+        & .schemaList{
+            border: 2px solid transparent;
+
+            & .schemaRow{
+                display: flex;
+                align-items: center;
+                margin: 12px 0;
+
+                & .coloredDotArea{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    width: 10%;
+
+                    & .dot{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        display: inline-block;
+
+                        &.green_dot{
+                            background-color: #5ddb78;
+                        }
+                        &.red_dot{
+                            background-color: #e62c67;
+                        }
+                        &.grey_dot{
+                            background-color: #e5e5e5;
+                        }
+                    }
+                }
+                & .inputArea{
+                    padding: 0;
+                    width: 75%;
+
+                    &>select{
+                        border-radius: 2px !important;
+                        cursor: pointer;
+
+                        &:focus{
+                            border-color: #a5a5a5 !important;
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+                & .buttonArea{
+                    padding: 0;
+                    width: 15%;
+
+                    & .btnMinus{
+                        width: 40px;
+                        height: 100%;
+                        font-size: 16px;
+                        background-color: #e5e5e5;
+                        border-radius: 4px;
+                        color: #5a5a5a;
+                        border: 0;
+                        margin: 0 8px;
+                        padding: 2px 0;
+
+                        &:hover{
+                            background-color: #d4d4d4;
+                        }
+
+                        &>i{
+                            font-size: 28px;
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+            &.blueBorder{
+                border-color: #a8cae9 !important;
+            }
+        }
+
+        & .btn_addNewSchema{
+            background-color: transparent;
+            color: #6ac6ad;
+            border: 0;
+            padding: 0;
+            margin: 5px 0 0 35px;
+
+            &:hover{
+                color: #25ac85;
+            }
+
+            & span{
+                text-decoration: underline;
+            }
+        } 
+    }
+
+    & .button_panel{
+        background-color: #f6f6f6;
+        padding: 20px;
+
+        & .btn_SaveSegment{
+            background-color: #41b494;
+            color: #ffffff;
+            border-radius: 4px;
+            border: 1px solid #41b494;
+
+            &:hover{
+                background-color: #37c59d;
+            }
+        }
+        & .btn_Cancel{
+            background-color: #ffffff;
+            color: red;
+            border-radius: 4px;
+            border: 1px solid #ffffff;
+            margin-left: 10px;
+
+            &:hover{
+                background-color: #e2e2e2;
+            }
+        }
+    }
+}
+
+
+
+
