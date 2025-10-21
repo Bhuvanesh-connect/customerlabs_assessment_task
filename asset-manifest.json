@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bhuvanesh-connect/customerlabs_assessment_task/static/css/main.1c2f2e98.css",
+    "main.js": "/Bhuvanesh-connect/customerlabs_assessment_task/static/js/main.e0de8316.js",
+    "static/media/bootstrap-icons.woff?": "/Bhuvanesh-connect/customerlabs_assessment_task/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Bhuvanesh-connect/customerlabs_assessment_task/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/Bhuvanesh-connect/customerlabs_assessment_task/index.html",
+    "main.1c2f2e98.css.map": "/Bhuvanesh-connect/customerlabs_assessment_task/static/css/main.1c2f2e98.css.map",
+    "main.e0de8316.js.map": "/Bhuvanesh-connect/customerlabs_assessment_task/static/js/main.e0de8316.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c2f2e98.css",
+    "static/js/main.e0de8316.js"
+  ]
+}
